@@ -12,8 +12,44 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CAE",
+                ""
+              ]
+            },
+            "title": "Territorio"
+          },
+          {
+            "name": "Servicios",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Educacion",
+                "Salud",
+                "Proteccion social",
+                ""
+              ]
+            },
+            "title": "Servicios"
+          },
+          {
+            "name": "Administracion",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Administracion autonomica",
+                "Todas las administraciones publicas",
+                ""
+              ]
+            },
+            "title": "Administracion"
           },
           {
             "name": "Value",

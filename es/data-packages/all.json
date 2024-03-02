@@ -39,6 +39,66 @@
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
+      "path": "1-a-2/data.csv",
+      "name": "1-a-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CAE",
+                ""
+              ]
+            },
+            "title": "Territorio"
+          },
+          {
+            "name": "Servicios",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Educacion",
+                "Salud",
+                "Proteccion social",
+                ""
+              ]
+            },
+            "title": "Servicios"
+          },
+          {
+            "name": "Administracion",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Administracion autonomica",
+                "Todas las administraciones publicas",
+                ""
+              ]
+            },
+            "title": "Administracion"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of total government spending on essential services (education, health and social protection)"
+    },
+    {
       "path": "Indicator_3-4-1/data.csv",
       "name": "Indicator_3-4-1",
       "profile": "tabular-data-resource",
@@ -3534,30 +3594,6 @@
         ]
       },
       "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
-    },
-    {
-      "path": "1-a-2/data.csv",
-      "name": "1-a-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of total government spending on essential services (education, health and social protection)"
     },
     {
       "path": "17-7-1/data.csv",
