@@ -12,7 +12,42 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CAE",
+                "01",
+                "20",
+                "48",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Alimentos",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alimentos",
+                "Pan y cereales",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice 2021=100",
+                "Tasa de variacion interanual",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

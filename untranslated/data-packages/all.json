@@ -91,6 +91,63 @@
       "title": "Proportion of total government spending on essential services (education, health and social protection)"
     },
     {
+      "path": "2-c-1/data.csv",
+      "name": "2-c-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CAE",
+                "01",
+                "20",
+                "48",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Alimentos",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alimentos",
+                "Pan y cereales",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indice 2021=100",
+                "Tasa de variacion interanual",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Indicator of food price anomalies"
+    },
+    {
       "path": "Indicator_3-4-1/data.csv",
       "name": "Indicator_3-4-1",
       "profile": "tabular-data-resource",
@@ -4901,28 +4958,6 @@
         ]
       },
       "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older"
-    },
-    {
-      "path": "2-c-1/data.csv",
-      "name": "2-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Indicator of food price anomalies"
     },
     {
       "path": "6-4-1/data.csv",
