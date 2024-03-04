@@ -1,6 +1,6 @@
-indicator_name: Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease
+indicator_name: Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas
 indicator_number: 3.4.1
-computation_units: Percentage
+computation_units: Porcentaje
 source_active_1: true
 source_organisation_1: Wetland Statistics Agency
 source_url_1: "https://wetlandstaticsagency.org"
