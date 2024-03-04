@@ -1,4 +1,4 @@
-indicator_name: Indicator of food price anomalies
+indicator_name: Indicador de anomalías en los precios de los alimentos
 indicator_number: 2.c.1
 computation_units: Percentage
 source_active_1: true
