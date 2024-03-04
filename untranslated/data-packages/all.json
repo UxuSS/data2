@@ -36,6 +36,66 @@
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
     },
     {
+      "path": "3-4-1/data.csv",
+      "name": "3-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Enfermedad",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Cardiovascular",
+                "Cancer",
+                "Enfermedades respiratorias cronicas",
+                "Diabetes",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "01",
+                "20",
+                "48",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sexo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                "1",
+                "2",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
+    },
+    {
       "path": "1-a-2/data.csv",
       "name": "1-a-2",
       "profile": "tabular-data-resource",
@@ -146,66 +206,6 @@
         ]
       },
       "title": "Indicator of food price anomalies"
-    },
-    {
-      "path": "Indicator_3-4-1/data.csv",
-      "name": "Indicator_3-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Enfermedad",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Cardiovascular",
-                "Cancer",
-                "Enfermedades respiratorias cronicas",
-                "Diabetes",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Territorio",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
-                "01",
-                "20",
-                "48",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sexo",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0",
-                "1",
-                "2",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Indicator_3-4-1"
     },
     {
       "path": "2-3-2/data.csv",
@@ -2384,28 +2384,6 @@
         ]
       },
       "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)"
-    },
-    {
-      "path": "3-4-1/data.csv",
-      "name": "3-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease"
     },
     {
       "path": "10-4-2/data.csv",
