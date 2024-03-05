@@ -12,12 +12,39 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Año"
           },
           {
+            "name": "AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Araba",
+                "Bizkaia",
+                "Gipuzkoa",
+                ""
+              ]
+            },
+            "title": "AREA"
+          },
+          {
+            "name": "SEXO",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Mujer",
+                "Hombre",
+                ""
+              ]
+            },
+            "title": "SEXO"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
