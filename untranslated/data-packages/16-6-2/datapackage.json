@@ -15,11 +15,11 @@
             "type": "integer"
           },
           {
-            "name": "AREA",
+            "name": "Territorio",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "CAE",
                 "Araba",
                 "Bizkaia",
                 "Gipuzkoa",
@@ -28,7 +28,7 @@
             }
           },
           {
-            "name": "SEXO",
+            "name": "Sexo",
             "type": "string",
             "constraints": {
               "enum": [

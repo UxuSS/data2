@@ -16,21 +16,21 @@
             "title": "Year"
           },
           {
-            "name": "AREA",
+            "name": "Territorio",
             "type": "string",
             "constraints": {
               "enum": [
-                "Total",
+                "CAE",
                 "Araba",
                 "Bizkaia",
                 "Gipuzkoa",
                 ""
               ]
             },
-            "title": "AREA"
+            "title": "Territorio"
           },
           {
-            "name": "SEXO",
+            "name": "Sexo",
             "type": "string",
             "constraints": {
               "enum": [
@@ -40,7 +40,7 @@
                 ""
               ]
             },
-            "title": "SEXO"
+            "title": "Sexo"
           },
           {
             "name": "Value",
