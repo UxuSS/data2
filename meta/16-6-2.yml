@@ -2,6 +2,6 @@ indicator_name: Proporción de personas que confían en el Gobierno Vasco
 indicator_number: 16.6.2
 computation_units: Porcentaje
 source_active_1: true
-source_organisation_1: Wetland Statistics Agency
+source_organisation_1: lll
 source_url_1: "https://wetlandstaticsagency.org"
 reporting_status: complete
